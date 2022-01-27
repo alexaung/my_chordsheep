@@ -10,7 +10,8 @@
   "dependencies": {
     "chordsheetjs": "^5.1.2",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-jinke-music-player": "^4.24.2"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.7",
