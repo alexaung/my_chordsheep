@@ -1,8 +1,7 @@
-import { useState } from 'react'
+import React from 'react';
 import logo from './logo.svg'
 import './App.css'
 import ChordSheetJS from "chordsheetjs"; 
-import "react-jinke-music-player/assets/index.css";
 
 function App() {
   
@@ -51,7 +50,7 @@ return disp;
         
         <div className="p-2 m-2 h-4">
                         <pre
-                          className="p-2 w-96 textarea resize-none h-32 overflow-y-auto"
+                          className="p-2 w-full textarea resize-none h-32 overflow-y-auto"
                           dangerouslySetInnerHTML={{
                             __html: getDisp(),
                           }}
@@ -62,7 +61,7 @@ return disp;
         
         <div className="p-2 m-2 h-4">
                         <pre
-                          className="p-2 w-96 textarea resize-none h-32 overflow-y-auto"
+                          className="p-2 w-full textarea resize-none h-32 overflow-y-auto"
                           dangerouslySetInnerHTML={{
                             __html: getHtmlDivFormatter(),
                           }}
