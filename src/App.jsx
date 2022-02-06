@@ -43,9 +43,9 @@ Let it [Am]be, let it [C/G]be, let it [F]be, let it [C]be
   return (
     <div className="App">
       <Helmet>
-        <title>My Title</title>
-        <meta name="description" content="My Description" />
-        <meta name="keywords" content="chordsheet" />
+        <title>Let it be</title>
+        <meta property="og:description" content="Chordsheet Description" />
+        <meta property="og:title" content="Chord Title" />
       </Helmet>
       <header className="App-header">
         <div className="p-2 m-2 h-4">
@@ -56,17 +56,6 @@ Let it [Am]be, let it [C/G]be, let it [F]be, let it [C]be
             }}
           />
         </div>
-
-        <p>HtmlDivFormatter!</p>
-
-        {/* <div className="p-2 m-2 h-4">
-                        <pre
-                          className="p-2 w-full textarea resize-none h-32 overflow-y-auto"
-                          dangerouslySetInnerHTML={{
-                            __html: getHtmlDivFormatter(),
-                          }}
-                        />
-                      </div> */}
       </header>
     </div>
   );
