@@ -52,7 +52,7 @@ Let it [Am]be, let it [C/G]be, let it [F]be, let it [C]be
           <pre
             className="p-2 w-full textarea resize-none h-32 overflow-y-auto"
             dangerouslySetInnerHTML={{
-              __html: getDisp(),
+              __html: getHtmlDivFormatter(),
             }}
           />
         </div>
